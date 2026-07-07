@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="it">
+<!-- lingua del sito web -->
+<!-- documento html ha due elementi dipendenti: un head e un body -->
+
+<!-- HEAD -->
+<head>
+<!-- contiene metadati della pagina HTML -->	
+	<meta charset="utf-8">
+	<!-- set specifico di caratteri da indicare affinché il browser visualizzi correttamente la pagina-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- impostazione del viewport per rendere il sito web piacevolmente visibile su ogni dispositivo-->
+	<link rel="schema.dcterms" href="http://purl.org/dc/terms/">
+	<!-- dichiaro di utilizzare il /terms/ namespace per i miei metadati in dcterms (ripassare il DCterms per esame) -->
+	<meta name="dcterms.title" content="Prima Repubblica, prime elezioni">
+	<!-- L'elemento "meta" viene in genere utilizzato per specificare il set di caratteri, la descrizione della pagina, le parole chiave, l'autore del documento e le impostazioni della finestra di visualizzazione -->
+	<meta name="dcterms.creator" content="Christian Vegna">
+	<meta name="dcterms.subject" content="Prima Repubblica italiana, elezioni politiche 1948-1958">
+	<meta name="dcterms.description" content="Progetto di catalogazione, metadatazione, preservazione e valorizzazione di oggetti multimediali che rappresentano materiali elettorali inerenti alle elezioni politiche italiane del periodo 1948-1958">
+	<meta name="dcterms.publisher" content="Alma Mater Studiorum - Università di Bologna">
+	<meta name="dcterms.contributor" content="Christian Vegna">
+	<meta name="dcterms.date" content="15/07/2026">
+	<meta name="dcterms.type" content="Sito web">
+	<meta name="dcterms.format" content="HTML/CSS/JS">
+	<link rel="dcterms.identifier" href="https://github.com/vegnachristian14/Progetto_Christian_Vegna_DH_2026">
+	<!-- assegno un identificatore univoco alla pagina web sotto forma di URL -->
+	<meta name="dcterms.language" content="it">
+    <meta name="dcterms.rights" href="https://creativecommons.org/licenses/by-nc/4.0/">
+    <meta name="dcterms.rightsHolder" content="Alma Mater Studiorum - Università di Bologna">
+	<title>Prima Repubblica, prime elezioni</title>
+	<link rel="shortcut icon" href="../Img/Favicon.ico">
+	<!-- il favicon è l'icona piccola di fianco al titolo della pagina web -->
+	<link rel="stylesheet" type="text/css" href="Style_lista.css" />
+	<!-- rel="" definisce relazione tra risorsa nel link e il file corrente -->
+</head>
+
+<!-- BODY -->
+<body>
+	<!-- HEADER -->
+	<header>
+		<div class="header-top">
+			<div class="site-name">Prima Repubblica, prime elezioni</div>
+			<button id="toggleBtn"
+			aria-expanded="false"
+			aria-controls="navMenu"
+			aria-label="Apri menu">☰</button>
+			<!-- aria-expanded in false per menu chiuso (pre click); aria-controls collega il pulsante al menu di navigazione tramite id; aria-label per l'etichetta mostrata quando il cursore posa sul pulsante -->
+		</div>
+		<!-- NAVBAR -->
+		<nav id="navMenu" class="nav-dropdown">
+			<ul>
+				<li><a href="../Index-home/Index-home.html">Home</a></li>
+				<!-- class="active" evidenzia la pagina corrente -->
+				<li><a href="../Index-home/Index-home.html#scopri-di-più">Il progetto</a></li>
+
+				<li><button class="subMenu-toggle"
+					id="catalogoToggle"
+					aria-expanded="false"
+					aria-controls="catalogoMenu">Catalogo<span class="arrow">▾</span>
+					<!--  span è un contenitore generico in linea (inline) utilizzato in HTML per raggruppare porzioni di testo o altri elementi -->
+					<!-- definisco la classe arrow per farla poi ruotare di 180° nel foglio di stile -->
+					</button>
+					<!-- con id assegno al pulsante un identificativo univoco per il foglio di stile dell'index; aria-controls collega invece il pulsante del catalogo al sotto menu di riferimento -->
+					<ul id="catalogoMenu" class="submenu-c">
+						<li><a href="Lista_1.html">Lista</a></li>
+                        <div class="divider-smc"></div>
+						<li><a href="../Timeline/Date.html">Date</a></li>
+						<li><a href="#">Luoghi</a></li>
+					</ul>
+				</li>
+				<div class="divider-1"></div>
+				<!-- implementazione di un separatore visivo tra voci principali e secondarie -->
+				<li><a href="#">Persone</a></li>
+				<li><a href="#">Partiti politici</a></li>
+				<div class="divider-2"></div>
+				<li><a href="../Dati/Dati.html">Dati</a></li>
+				<div class="divider-3"></div>
+				<li>
+					<div class="search-bar">
+						<input type="search"
+						placeholder="Cerca nel sito..."
+						aria-label="Cerca nel sito">
+						<!-- l'attributo type "search" definisce un campo di testo per immettere una stringa di ricerca -->
+						<button type="submit"
+						aria-label="Avvia ricerca">Cerca</button>
+						<!-- l'attributo type "submit" invia i dati del form inseriti verso un'altra pagina -->
+					</div>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+	<!-- MAIN -->
+	<main>
+		<!-- ITEMS -->
+		<section class="container-items">
+			<div class="row">
+                <div class="sec-title-text">
+                    <h2 class="lighter-text"><span class="darker-text">Catalogo/</span>Lista</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="m-s-xs-devices">
+                <!-- classi col-sm e col-xs rispettivamente per small devices (tablet) e extrasmall devices (mobile); col-md è per i medium devices (pc suppongo) -->
+                    <aside>
+                        <!-- STATUS POSIZIONE (BREADCRUMBS) -->
+                        <nav class="status-pos">
+                            <ul class="site-path">
+                                <li><a href="../Index-home/Index-home.html" class="link" title="Torna alla Home">Home</a></li>
+                                <li>></li>
+                                <li>Lista</li>
+                            </ul>
+                        </nav>
+                        <!-- FILTRI -->
+                        <!-- ORDINA LA LISTA -->
+                        <div class="A-Z-OrCr-container">
+                            <h3>Riordina la lista:</h3>
+                            <div class="Rior-li-btn-group" data-toggle="buttons">
+                                <button class="A-Z-btn" type="button" aria-label="Per ordine alfabetico dalla A alla Z">A-Z</button>
+                                <button class="Z-A-btn" type="button" aria-label="Per ordine alfabetico inverso">Z-A</button>
+                                </label>
+                                <button class="OrCr-btn" type="button" aria-label="Per ordine cronologico">Per ordine cronologico</button>
+                            </div>
+                        </div>
+                        <!-- FILTRA LA LISTA -->
+                        <div class="filters-container">
+                            <h3>Filtra la lista:</h3>
+                            <!-- MENU A CASCATA -->
+                            <div class="menu-casc-dx">
+                                <button class="places-btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Luoghi
+                                </button>
+                                <div class="menu-casc-pl">
+                                    <!-- CHECKBOX -->
+                                    <input type="checkbox">
+                                    <label>Museo nazionale Collezione Salce, Treviso</label><br>
+                                    <input type="checkbox">
+                                    <label>Istituto Conestabile Piastrelli, Perugia</label><br>
+                                    <input type="checkbox">
+                                    <label>Cinecittà - Luce, Roma</label><br>
+                                    <button type="button" class="to-filter-btn">Filtra</button>
+                                </div>
+                            </div>
+                            <div class="menu-casc-dx">
+                                <a class="dates-btn" href="../Timeline/Date.html" title="attraverso la linea del tempo">Date</a>
+                            </div>
+                     	</div>
+                    </aside>
+                </div>
+                <!-- FILTRI ITEMS -->
+                <div class="source-type-filters">
+                <!-- COLONNE INNESTATE: una serie di colonne monovoce (con appositi margini di separazione e di stile) che servono a filtrare le risorse catalogate attraverso la loro tipologia -->
+                    <!-- TAB -->
+                    <div class="row">
+                        <div class="filters-btn-gruop">
+                            <ul>
+                                <li class="flt-item">
+                                    <a class="flt-link active" href="#" title="Tutti gli oggetti catalogati">Tutti</a>
+                                </li>
+                                <li class="flt-item">
+                                    <a class="flt-link" href="#" title="Solo testi catalogati">Immagini</a>
+                                </li>
+                                <li class="flt-item">
+                                    <a class="flt-link" href="#" title="Solo immagini catalogate">Testi</a>
+                                </li>
+                                <li class="flt-item">
+                                    <a class="flt-link" href="#" title="Solo video catalogati">Video</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- PRIMA RIGA DI CARD -->
+                    <div class="row">
+                        <!-- ITEM 1 -->
+                        <div class="card-space-occ">
+                            <div class="card-item">
+                                <span class="ltl-box-top-left"><a href="#" target="_blank" title="Vedi tutte le immagini del catalogo"><i class="image-symbol"></i></a></span>
+                                <img src="../Img/1953/Basta_Dc.png" class="card-img-top"
+                                    alt="Basta con la D.C.! Vota comunista, Partito Comunista Italiano, manifesto politico, 1953, Museo nazionale Collezione Salce, Treviso">
+                                <div class="card-body">
+                                    <div class="card-metadata">
+                                        <h4 class="card-title">Basta con la D.C.! Vota comunista</h4>
+                                        <p class="card-text">Creatore: <b><a href="http://viaf.org/viaf/159457224" target="_blank" title="Identificativo VIAF del Partito Comunista Italiano">Partito Comunista Italiano<sup>VIAF</sup></a></b>.</p> 
+                                        <p class="card-text">Data: <b><a href="#" title="1953">1953</a></b>.</p> 
+                                        <p class="card-text">Istituzione fornitrice: <b><a href="http://viaf.org/viaf/8240148753709841320001" target="_blank" title="Identificativo VIAF del Museo nazionale Collezione Salce, Treviso">Museo nazionale Collezione Salce, Treviso<sup>VIAF</sup></a></b>.</p>
+                                    </div>
+                                    <a href="#" class="metad-btn" title="Tutti i metadati">Tutti i metadati</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ITEM 2 -->
+                        <div class="card-space-occ">
+                            <div class="card-item">
+                                <span class="ltl-box-top-left"><a href="#" target="_blank" title="Vedi tutte le immagini del catalogo"><i class="image-symbol"></i></a></span>
+                                <img src="../Img/1953/Psi_tricolore.png" class="card-img-top"
+                                    alt="Vota Partito Socialista Italiano, Partito Socialista Italiano, manifesto politico, 1953, Museo nazionale Collezione Salce, Treviso">
+                                <div class="card-body">
+                                    <div class="card-metadata">
+                                        <h4 class="card-title">Vota Partito Socialista Italiano</h4>
+                                        <p class="card-text">Creatore: <b><a href="http://viaf.org/viaf/132541533" target="_blank" title="Identificativo VIAF del Partito Socialista Italiano">Partito Socialista Italiano<sup>VIAF</sup></a></b>.</p> 
+                                        <p class="card-text">Data: <b><a href="#" title="1953">1953</a></b>.</p> 
+                                        <p class="card-text">Istituzione fornitrice: <b><a href="http://viaf.org/viaf/8240148753709841320001" target="_blank" title="Identificativo VIAF del Museo nazionale Collezione Salce, Treviso">Museo nazionale Collezione Salce, Treviso<sup>VIAF</sup></a></b>.</p>
+                                    </div>
+                                    <a href="#" class="metad-btn" title="Tutti i metadati">Tutti i metadati</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ITEM 3 -->
+                        <div class="card-space-occ">
+                            <div class="card-item">
+                                <span class="ltl-box-top-left"><a href="#" target="_blank" title="Vedi tutte le immagini del catalogo"><i class="image-symbol"></i></a></span>
+                                <img src="../Img/1953/Partito_monarchico.png" class="card-img-top"
+                                    alt="Partito Nazionale Monarchico, Partito Nazionale Monarchico, manifesto politico, 1953, Museo nazionale Collezione Salce, Treviso">
+                                <div class="card-body">
+                                    <div class="card-metadata">
+                                        <h4 class="card-title">Partito Nazionale Monarchico</h4>
+                                        <p class="card-text">Creatore: <b><a href="http://viaf.org/viaf/220200280" target="_blank" title="Identificativo VIAF del Partito Nazionale Monarchico">Partito Nazionale Monarchico<sup>VIAF</sup></a></b>.</p> 
+                                        <p class="card-text">Data: <b><a href="#" title="1950">1950</a></b>.</p> 
+                                        <p class="card-text">Istituzione fornitrice: <b><a href="http://viaf.org/viaf/8240148753709841320001" target="_blank" title="Identificativo VIAF del Museo nazionale Collezione Salce, Treviso">Museo nazionale Collezione Salce, Treviso<sup>VIAF</sup></a></b>.</p>
+                                    </div>
+                                    <a href="#" class="metad-btn" title="Tutti i metadati">Tutti i metadati</a>
+                                </div>
+                            </div>
+                        </div>
+                	</div>
+                	<!-- SECONDA RIGA -->
+                    <!-- inserisci un div con classe row per ogni riga di colonne -->
+                    <div class="row">
+                        <!-- ITEM 1 -->
+                        <div class="card-space-occ">
+                            <div class="card-item">
+                                <span class="ltl-box-top-left"><a href="#" target="_blank" title="Vedi tutte le immagini del catalogo"><i class="image-symbol"></i></a></span>
+                                <img src="../Img/1953/Dc_vs_estremismi.png" class="card-img-top"
+                                    alt="Dittatura, Democrazia Cristiana, manifesto politico, 1953, Museo nazionale Collezione Salce, Treviso">
+                                <div class="card-body">
+                                    <div class="card-metadata">
+                                        <h4 class="card-title">Dittatura</h4>
+                                        <p class="card-text">Creatore: <b><a href="http://viaf.org/viaf/137215176" target="_blank" title="Identificativo VIAF della Democrazia Cristiana">Democrazia Cristiana<sup>VIAF</sup></a></b>.</p>
+                                        <p class="card-text">Data: <b><a href="#" title="1953">1953</a></b>.</p> 
+                                        <p class="card-text">Istituzione fornitrice: <b><a href="http://viaf.org/viaf/8240148753709841320001" target="_blank" title="Identificativo VIAF del Museo nazionale Collezione Salce, Treviso">Museo nazionale Collezione Salce, Treviso<sup>VIAF</sup></a></b>.</p>
+                                    </div>
+                                    <a href="#" class="metad-btn" title="Tutti i metadati">Tutti i metadati</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ITEM 2 -->
+                        <div class="card-space-occ">
+                            <div class="card-item">
+                                <span class="ltl-box-top-left"><a href="#" target="_blank" title="Vedi tutte le immagini del catalogo"><i class="image-symbol"></i></a></span>
+                                <img src="../Img/1953/Dc_nei_paesi_comunisti.png" class="card-img-top"
+                                    alt="Nei paesi comunisti si vota così (quando si vota), Democrazia Cristiana, manifesto politico, 1952, Museo nazionale Collezione Salce, Treviso">
+                                <div class="card-body">
+                                    <div class="card-metadata">
+                                        <h4 class="card-title">Nei paesi comunisti si vota così (quando si vota)</h4>
+                                        <p class="card-text">Creatore: <b><a href="http://viaf.org/viaf/137215176" target="_blank" title="Identificativo VIAF della Democrazia Cristiana">Democrazia Cristiana<sup>VIAF</sup></a></b>.</p> 
+                                        <p class="card-text">Data: <b><a href="#" title="1952">1952</a></b>.</p> 
+                                        <p class="card-text">Istituzione fornitrice: <b><a href="http://viaf.org/viaf/8240148753709841320001" target="_blank" title="Identificativo VIAF del Museo nazionale Collezione Salce, Treviso">Museo nazionale Collezione Salce, Treviso<sup>VIAF</sup></a></b>.</p>
+                                    </div>
+                                    <a href="#" class="metad-btn" title="Tutti i metadati">Tutti i metadati</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ITEM 3 -->
+                        <div class="card-space-occ">
+                            <div class="card-item">
+                                <span class="ltl-box-top-left"><a href="#" target="_blank" title="Vedi tutti i testi del catalogo"><i class="book-symbol"></i></a></span>
+                                <img src="../Img/1953/Il_responso.png" class="card-img-top"
+                                    alt="Il responso del veggente : canzone valzer allegro sul motivo de 'Il Vecchio Pollo', Capriotti Editore, volantino, 1953, Istituto Conestabile Piastrelli, Perugia">
+                                <div class="card-body">
+                                    <div class="card-metadata">
+                                        <h4 class="card-title">Il responso del veggente : canzone valzer allegro sul motivo de "Il Vecchio Pollo"</h4>
+                                        <p class="card-text">Creatore: <b><a href="https://www.ufficiocamerale.it/3401/angelo-capriotti-editore-societa-a-responsabilita-limitata?srsltid=AfmBOopl2qXahnoJXwbnrB3f31r4r8QK3o49Zx8mIqsNiabjdsdAjtl5" target="_blank" title="Identificativo di Capriotti Editore">Capriotti Editore<sup>ufficio camerale</sup></a></b>.</p> 
+                                        <p class="card-text">Data: <b><a href="#" title="1953">1953</a></b>.</p> 
+                                        <p class="card-text">Istituzione fornitrice: <b><a href="https://istitutoconestabilepiastrelli.locloudhosting.net/" target="_blank" title="Pagina LoCloud Collections dell'Istituto Conestabile Piastrelli, Perugia">Istituto Conestabile Piastrelli, Perugia<sup>LoCloud Collections</sup></a></b>.</p>
+                                    </div>
+                                    <a href="#" class="metad-btn" title="Tutti i metadati">Tutti i metadati</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                	<!-- PAGINATION -->
+                	<div class="row">
+                        <div class="pagination">
+                            <nav>
+                                <!-- classe pagination-sm per ridurre le dimensioni della pagination -->
+                                <!-- classe justify-content-center per centrare la componente pagination -->
+                                <ul class="pagination-dim-pos">
+                                    <li class="page-item">
+                                        <a class="page-link" href="Lista_1.html" tabindex="-1" title="Indietro">Precedente</a></li>
+                                    <li class="page-item">
+                                    	<a class="page-link" href="Lista_1.html" title="Pagina 1">1</a></li>
+                                    <li class="page-item active">
+                                        <a class="page-link" href="#" title="Pagina 2">2</a></li>
+                                    <li class="page-item" aria-current="page">
+                                    	<a class="page-link" href="Lista_3.html" title="Pagina 3">3</a></li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="Lista_3.html" title="Avanti">Successivo</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <!-- SIDEBAR -->
+                <div class="sidebar">
+                    <aside>
+                        <div>
+                            <a href="#" class="link" title="Guida"><i class="quest-mark-symbol"></i>
+                                <span>Guida</span></a>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+		</section>
+	</main>
+
+	<!-- FOOTER -->
+	<footer>
+		<!-- INFORMAZIONI SECONDARIE -->
+		<div class="container-secon-info">
+			<div class="container">
+				<div class="row">
+					<div class="sec-info-box">
+						<h5 class="text-justify">Prima Repubblica, prime elezioni</h5>
+                        <ul class="pair-of-elements">
+                            <li>SPARQL endpoint</li>
+                            <!-- servizio web accessibile tramite HTTP che permette di interrogare basi di conoscenza (triple store) o database semantici utilizzando il linguaggio SPARQL -->
+                            <li>Download del dataset</li>
+                        </ul>
+                        <ul class="pair-of-elements">
+                            <li>Specifiche tecniche</li>
+                            <li>Applicazione web</li>
+                        </ul>
+                        <ul class="pair-of-elements">
+                            <li>Crediti</li>
+                            <li>Licenze</li>
+                        </ul>
+					</div>
+					<div class="sec-info-box">
+						<h5 class="text-justify">Alma Mater Studiorum - Università di Bologna</h5>
+                        <ul class="pair-of-elements">
+                            <li><a href="https://www.unibo.it/it" class="text-unibo" target="_blank" title="Sito web dell'Università di Bologna"><u>About</u></a></li>
+                            <li><a href="#" class="text-unibo" target="_blank" title="Progetti dell'Università di Bologna"><u>Tutti i progetti dell'Università di Bologna</u></a></li>
+                            <li><a href="https://www.unibo.it/it/ateneo/contatti" class="text-unibo" target="_blank" title="dell'Università di Bologna"><u>Contatti</u></a></li>
+                            <!-- target="_blank" serve per fare aprire il link in un'altra scheda -->
+                        </ul>
+                    </div>
+				</div>
+			</div>
+		</div>
+		<!-- COPYRIGHT -->
+		<div class="copyright-text">
+            <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">© Copyright (c) 2026 by Alma Mater Studiorum - Università di Bologna</a>
+        </div>
+	</footer>
+	<!-- SCRIPT -->
+	<script src="Lista.js"></script>
+	<!-- Collegamento allo script JS esterno (messo in fondo al body
+	così il DOM (Document Object Model - Modello a oggetti del documento) è già caricato quando lo script viene eseguito) -->
+
+</body>
+
+</html>
