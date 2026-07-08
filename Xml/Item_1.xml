@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://purl.org/dc/elements/1.1/http://dublincore.org/schemas/xmls/qdc/dc.xsd">
+
+	<!-- STANDARD ICCD -->
+
+	<!-- TITOLO -->
+	<dcterms:title>Vota per chi ha sempre  detto la verità</dcterms:title>
+	<!-- DESCRIZIONE -->
+	<dcterms:description type="descrizione">Chruščëv fa un'iniezione a Palmiro Togliatti e Bulganin rincorre Pietro Nenni con una siringa</dcterms:description>
+	<!-- CREATORE -->
+	<dcterms:creator xsi:type="dcterms:URI">http://viaf.org/viaf/137215176</dcterms:creator>
+	<!-- DATA -->
+	<dcterms:created>1958</dcterms:created>
+	<!-- ABSTRACT -->
+	<dcterms:subject type="lettura_iconografica">figure maschili; caricature; politici</dcterms:subject>
+	<dcterms:subject type="categoria_merceologica_tipo_evento">politica; partiti politici; informazione e comunicazione; propaganda elettorale</dcterms:subject>
+	<dcterms:subject type="nomi" ref="http://viaf.org/viaf/64007537">Kruscev</dcterms:subject>
+	<dcterms:subject type="nomi" ref="http://viaf.org/viaf/64007537">Nikita Sergeevič Chruščëv</dcterms:subject>	
+	<dcterms:subject type="nomi" ref="http://viaf.org/viaf/97709372">Nikolaj Aleksandrovič Bulganin</dcterms:subject>
+	<dcterms:subject type="nomi" ref="http://viaf.org/viaf/73865321">Pietro Nenni</dcterms:subject>
+	<dcterms:subject type="nomi" ref="http://viaf.org/viaf/27151541">Palmiro Togliatti</dcterms:subject>
+	<dcterms:subject type="nomi">Premio Stalin per la pace</dcterms:subject>
+	<dcterms:subject type="nomi" ref="http://viaf.org/viaf/137215176">DC</dcterms:subject>
+	<dcterms:subject type="nomi" ref="http://viaf.org/viaf/137215176">Democrazia Cristiana</dcterms:subject>
+	<dcterms:subject type="luoghi" ref="http://vocab.getty.edu/page/tgn/6006211">URSS</dcterms:subject>
+	<dcterms:subject type="luoghi" ref="http://vocab.getty.edu/page/tgn/6006211">Unione delle Repubbliche Socialiste Sovietiche</dcterms:subject>
+	<dcterms:subject type="luoghi" ref="http://vocab.getty.edu/page/tgn/7002435">Russia</dcterms:subject>
+	<dcterms:subject type="luoghi" ref="http://vocab.getty.edu/page/tgn/7012974">Mosca</dcterms:subject>
+	<!-- OGGETTO -->
+	<dcterms:type type="oggetto" ref="https://thes.bncf.firenze.sbn.it/termine.php?id=3022">manifesto politico</dcterms:type>
+	<!-- MATERIA E TECNICA -->
+	<dcterms:medium>carta/fotocromolitografia</dcterms:medium>
+	<!-- AMBITO CULTURALE -->
+	<dcterms:conformsTo xsi:type="dcterms:URI">https://catalogo.beniculturali.it/search/CulturalScope/ambito-italiano</dcterms:conformsTo>
+	<!-- LUOGO DI CONSERVAZIONE -->
+	<dcterms:publisher type="ente_conservatore" xsi:type="dcterms:URI">http://viaf.org/viaf/8240148753709841320001</dcterms:publisher>
+	<!-- LOCALIZZAZIONE -->
+	<dcterms:isPartOf>Complesso di Santa Margherita e San Gaetano</dcterms:isPartOf>
+	<!-- INDIRIZZO -->
+	<dcterms:spatial ref="http://vocab.getty.edu/page/tgn/7003297">Via Carlo Alberto, 31, Treviso</dcterms:spatial>
+	<!-- NOTIZIE STORICO CRITICHE -->
+	<dcterms:description type="notizie_storiche">Questo manifesto di propaganda elettorale della Democrazia Cristiana può essere datato intorno al 1958 in riferimento alle elezioni politiche che si tennero in quell'anno in Italia. Nel 1956 alla chiusura del XX congresso del Partito Comunista Sovietico a Mosca, Nikita Chruščëv aveva denunciato i guasti del “culto della personalità”, condannando i metodi dispotici e terroristici di Stalin. In quell'occasione era presente Togliatti a capo della delegazione del Partito Comunista Italiano. Pietro Nenni nel 1952 era stato insignito del Premio Stalin per la pace</dcterms:description>
+	<!-- TIPOLOGIA SCHEDA -->
+	<dcterms:type type="scheda_oggetto">stampe</dcterms:type>
+	<!-- CONDIZIONE GIURIDICA -->
+	<dcterms:rightsHolder>proprietà Stato</dcterms:rightsHolder>
+	<!-- CODICE DI CATALOGO NAZIONALE -->
+	<dcterms:identifier type="NCTN">0500673572</dcterms:identifier>
+	<!-- NUMERO D'INVENTARIO -->
+	<dcterms:identifier type="numero_inventario">22603</dcterms:identifier>
+	<!-- INTERMEDIARIO -->
+	<dcterms:publisher type="intermediario" xsi:type="dcterms:URI">https://catalogo.beniculturali.it/</dcterms:publisher>
+	<!-- ENTE COMPETENTE PER LA TUTELA -->
+	<dcterms:publisher type="ente_tutela" xsi:type="dcterms:URI">http://viaf.org/viaf/8240148753709841320001</dcterms:publisher>
+	<!-- ENTE SCHEDATORE -->
+	<dcterms:publisher type="ente_schedatore" xsi:type="dcterms:URI">https://www.soprintendenzapdve.beniculturali.it/</dcterms:publisher>
+	<!-- ISCRIZIONI -->
+	<dcterms:description type="iscrizioni">margine inferiore, a sinistra - a cura della D.C. - SPES - stampatello - a stampa -</dcterms:description>
+	<!-- LICENZA METADATI -->
+	<dcterms:rights xsi:type="dcterms:URI">https://creativecommons.org/licenses/by/4.0/</dcterms:rights>
+	<!-- RDF -->
+	<dcterms:relation type="rdf" xsi:type="dcterms:URI">https://dati.cultura.gov.it/lodview-arco/resource/HistoricOrArtisticProperty/0500673572.html</dcterms:relation>
+	<!-- SCHEDA COMPLETA -->
+	<dcterms:relation type="scheda_pdf" xsi:type="dcterms:URI">https://sigecweb.beniculturali.it/sigec/item/print/ICCD11582484</dcterms:relation>
+</item>

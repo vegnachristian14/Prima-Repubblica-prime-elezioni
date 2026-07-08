@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- dichiarazione obbligatoria che apre qualsiasi file XML -->
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
+            type="application/xml"
+            schematypens="http://relaxng.org/ns/structure/10.0"?>
+<!-- <?xml-model ... ?> è un'istruzione di processing, cioè un'indicazione rivolta agli strumenti che elaborano il linguaggio del file. Dice all'editor XML quale schema usare per validare il documento, ovvero per verificare che i tag usati siano corretti secondo le regole TEI. I tre attributi significano:
+href → indica il percorso dello schema, in questo caso il file .rng (RelaxNG) che contiene tutte le regole dell'intero standard TEI (tei_all);
+type → specifica che il file dello schema è esso stesso un XML;
+schematypens → indica il linguaggio con cui è scritto lo schema, in questo caso RelaxNG (http://relaxng.org/ns/structure/10.0), uno dei tre formati accettati da TEI -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it">
+<!-- tag di apertura di un documento digitale codificato con lo standard TEI -->
+	<!-- HEADER -->
+	<teiHeader>
+	    <fileDesc>
+	      <!-- Titolo e responsabilità dell'edizione elettronica -->
+	    	<titleStmt>
+	        	<title>Democrazia Cristiana</title>
+	        	<title type="sub">Edizione digitale</title>
+	        	<respStmt>
+	          		<resp>Trascrizione e codifica TEI</resp>
+	          		<name xml:id="CV">Christian Vegna</name>
+	        	</respStmt>
+	        </titleStmt>
+	        <!-- Informazioni sulla pubblicazione dell'edizione digitale -->
+	    	<publicationStmt>
+	        	<publisher>Alma Mater Studiorum – Università di Bologna</publisher>
+	        	<date when="2026">2026</date>
+	        	<availability>
+	          		<licence target="https://creativecommons.org/licenses/by-sa/4.0/">
+	            	CC BY-SA 4.0
+	          		</licence>
+	        	</availability>
+	        	<!-- Identificatore univoco della risorsa digitale su Europeana -->
+	        	<idno type="URI">https://www.europeana.eu/it/item/2058606/object_FRS_11331341</idno>
+	        	<!-- abbreviazione di identifier number, è un elemento standard utilizzato per racchiudere un codice identificativo univoco -->
+	        </publicationStmt>
+	        <!-- Descrizione del volantino Dc -->
+	        <sourceDesc>
+	        	<biblFull>
+	        	<!-- tag per riferimento bibliografico strutturato in modo completo e dettagliato -->
+	          		<titleStmt>
+	            		<title>Democrazia Cristiana</title>
+	          		</titleStmt>
+	          		<publicationStmt>
+	            		<publisher ref="http://viaf.org/viaf/137215176">Democrazia Cristiana</publisher>
+	            		<pubPlace>
+	              			<placeName ref="http://vocab.getty.edu/page/tgn/7000526">Perugia</placeName>
+	            		</pubPlace>
+	            		<date when="1948" cert="low">1948?</date>
+	            	</publicationStmt>
+	        	</biblFull>
+
+	        	<!-- Descrizione fisica del documento originale -->
+		        <msDesc>
+		        <!-- = manuscript description -->
+		        	<msIdentifier>
+		            	<institution>Istituto Conestabile Piastrelli</institution>
+		            	<settlement ref="http://vocab.getty.edu/page/tgn/7000526">Perugia</settlement>
+		            	<idno>30</idno>
+		          	</msIdentifier>
+		            <physDesc>
+		            	<objectDesc form="leaflet">
+		              		<supportDesc>
+		                		<support>
+		                  			<objectType ref="https://d-nb.info/gnd/4071280-1">volantino</objectType>
+		                  			<material>stampa tipografica</material>
+		                		</support>
+		                		<extent>1 volantino (2 p.) : stampa tipografica ; 17×12 cm</extent>
+		              		</supportDesc>
+		            	</objectDesc>
+		            	<typeDesc>
+		            		<typeNote>stampa tipografica su entrambi i lati del foglio</typeNote>
+		            	</typeDesc>
+		          	</physDesc>
+		            <history>
+		            	<origin>
+		              		<origDate when="1948" cert="low">1948?</origDate>
+		              		<origPlace>
+		                		<placeName ref="http://vocab.getty.edu/page/tgn/1000080">Italia</placeName>
+		              		</origPlace>
+		            	</origin>
+		          	</history>
+		        </msDesc>
+	      	</sourceDesc>
+	    </fileDesc>
+	    <!-- Profilo del testo (lingua, soggetti, tipologia) -->
+	    <profileDesc>
+	      	<langUsage>
+	        	<language ident="it">italiano</language>
+	      	</langUsage>
+	      	<textClass>
+	        	<keywords scheme="https://europeana.eu">
+	          		<term ref="http://viaf.org/viaf/137215176">Democrazia Cristiana</term>
+	          		<term>propaganda elettorale – 1948-1955</term>
+	          		<term ref="http://viaf.org/viaf/59890789">Gabriotti Venanzio</term>
+	        	</keywords>
+	        	<classCode scheme="https://d-nb.info/gnd/4071280-1">volantino</classCode>
+	      	</textClass>
+	    </profileDesc>
+	    <!-- Dichiarazione editoriale: scelte di codifica adottate -->
+	    <encodingDesc>
+	    <!-- tag che documenta la relazione tra la codifica digitale e la fonte originaria, spiegando i criteri, le scelte e il metodo di codifica applicati -->
+	      	<editorialDecl>
+	        	<p>La trascrizione riproduce fedelmente il testo del volantino originale. Le indicazioni di formattazione (centrato, corsivo e virgolettato) sono codificate tramite gli attributi <att>rend</att> e i tag <gi>hi</gi> e <gi>q</gi>. I virgolettati presenti nell'originale sono resi con <gi>q</gi>; il testo in corsivo all'interno di essi è ulteriormente marcato con <gi>hi rend="italic"</gi>. Le indicizzazioni effettuate tramite i tag <gi>index</gi> e <gi>term</gi> hanno lo scopo di evidenziare i concetti politici centrali del volantino democristiano.
+	        	</p>
+	      	</editorialDecl>
+	    </encodingDesc>
+	    <!-- Informazioni sulla revisione del file -->
+	    <revisionDesc>
+	    	<change when="2026" who="#CV">Codifica TEI del documento</change>
+	    </revisionDesc>
+  	</teiHeader>
+
+	<!-- TEXT-->
+	<text>
+		<body>
+		    <!-- TITOLO (centrato) -->
+		    <head rend="center">DEMOCRAZIA CRISTIANA</head>
+
+		    <!-- PARAGRAFO 1 -->
+		    <p>Nell'ora in cui l'<name type="place" ref="http://vocab.getty.edu/page/tgn/1000080">Italia</name> rinasce dal sangue, dalle rovine, dalla disperazione si leva e garrisce fiammante come una promessa e un anelito una bandiera che porta un nome: <hi rend="italic">Libertà</hi><note type="editorial" resp="#CV">La parola è una chiara allusione al termine "libertas", presente sullo scudo crociato simbolo della Dc.</note>.
+		    </p>
+
+		    <!-- PARAGRAFO 2 -->
+		    <p>In questo momento che rivaluta una <name type="place" ref="http://vocab.getty.edu/page/tgn/1000080">Patria</name>, insozzata e distrutta ogni istante per <date from="1922" to="1943">venti anni</date>, gli uomini, liberi, si chiamano ancora una volta <name type="ethnic" ref="http://id.loc.gov/authorities/subjects/sh2009119854">Italiani</name><note type="editorial" resp="#CV">Il termine rivendica il recupero dell'identità nazionale dopo il ventennio fascista
+  			e l'occupazione tedesca.</note>.
+		    </p>
+
+		    <!-- PARAGRAFO 3 -->
+		    <p>La <q><hi rend="italic"><name type="organisation">Democrazia Cristiana</name></hi></q> che comprende e apprezza l'<term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=7104">uomo</term> nella sua totalità, nella sua completezza fatta di spirito e di materia, di sensibilità e di affetti, di gioie e di lacrime<index><term>Apprezzamento della natura umana</term></index>, intende a ogni costo salvaguardare per tutti gli <term>uomini</term> il massimo dono: la dignità della persona umana<index><term ref="https://thes.bncf.firenze.sbn.it/termine.php?id=7104">Salvaguardia della dignità umana</term></index>.
+		    </p>
+
+		    <!-- PARAGRAFO 4 -->
+		    <p>Noi <q><hi rend="italic"><name type="group" ref="http://id.loc.gov/authorities/subjects/sh85025033">democratici cristiani</name></hi></q> vogliamo che l'<name type="place" ref="http://vocab.getty.edu/page/tgn/1000080">Italia</name> di domani sia salva nella costruttività meravigliosa e feconda che scaturisce dalla libertà vera di tutti i cittadini, dal loro senso di responsabilità, dall'amore e non dall'odio, dalla comprensione e non dal sangue<index><term>Perseguimento della libertà e dei principi democratici</term></index>.
+		    </p>
+
+		    <!-- PARAGRAFO 5 -->
+		    <p>Siamo contro tutte le dittature<index><term>Lotta alle dittature</term></index>, di qualunque colore esse siano, di destra come di sinistra. Lo <name type="place" ref="http://vocab.getty.edu/page/tgn/1000080">Stato</name> che dovrà sorgere<note type="editorial" resp="#CV">Riferimento al futuro assetto politico in seguito all'esito delle prime elezioni della nascente Repubblica italiana</note> dovrà rappresentare il popolo nel più alto e umano senso della parola, dovrà sentire le necessità e le aspirazioni di tutti, dovrà a tutti elargire incoraggiamento e fiducia<index><term>Affermazione di uno Stato democratico, partecipativo e solidale</term></index>.
+		    </p>
+    	</body>
+ 	</text>
+</TEI>

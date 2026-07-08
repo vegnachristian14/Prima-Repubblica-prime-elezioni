@@ -1,0 +1,1003 @@
+[
+  {
+    "argomento": "figura maschile",
+    "categoria": "Lettura iconografica",
+    "record_autorità": "https://www.wikidata.org/wiki/Q44148",
+    "conteggio": 7,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "padre",
+    "categoria": "Lettura iconografica",
+    "record_autorità": "https://thes.bncf.firenze.sbn.it/termine.php?id=7802",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "figura femminile",
+    "categoria": "Lettura iconografica",
+    "record_autorità": "https://thes.bncf.firenze.sbn.it/termine.php?id=36115",
+    "conteggio": 3,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "madre",
+    "categoria": "Lettura iconografica",
+    "record_autorità": "https://thes.bncf.firenze.sbn.it/termine.php?id=3342",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "bambino",
+    "categoria": "Lettura iconografica",
+    "record_autorità": "https://thes.bncf.firenze.sbn.it/termine.php?id=1836",
+    "conteggio": 2,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "figlia",
+    "categoria": "Lettura iconografica",
+    "record_autorità": "https://thes.bncf.firenze.sbn.it/termine.php?id=16766",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "balcone",
+    "categoria": "Lettura iconografica",
+    "record_autorità": "https://thes.bncf.firenze.sbn.it/termine.php?id=16299",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "fiori",
+    "categoria": "Lettura iconografica",
+    "record_autorità": "https://thes.bncf.firenze.sbn.it/termine.php?id=7751",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "informazione",
+    "categoria": "Categoria merceologica/ tipo evento",
+    "record_autorità": "https://thes.bncf.firenze.sbn.it/termine.php?id=5648",
+    "conteggio": 14,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "comunicazione",
+    "categoria": "Categoria merceologica/ tipo evento",
+    "record_autorità": "https://thes.bncf.firenze.sbn.it/termine.php?id=2303",
+    "conteggio": 14,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "propaganda elettorale",
+    "categoria": "Categoria merceologica/ tipo evento",
+    "record_autorità": "https://thes.bncf.firenze.sbn.it/termine.php?id=15961",
+    "conteggio": 12,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "politica",
+    "categoria": "Categoria merceologica/ tipo evento",
+    "record_autorità": "https://thes.bncf.firenze.sbn.it/termine.php?id=4934",
+    "conteggio": 13,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "partiti politici",
+    "categoria": "Categoria merceologica/ tipo evento",
+    "record_autorità": "https://thes.bncf.firenze.sbn.it/termine.php?id=5254",
+    "conteggio": 12,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Partito Comunista Italiano",
+    "categoria": "Nomi",
+    "record_autorità": "http://viaf.org/viaf/159457224",
+    "conteggio": 6,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Fronte Democratico Popolare",
+    "categoria": "Nomi",
+    "record_autorità": "http://viaf.org/viaf/132539760",
+    "conteggio": 2,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "bandiera",
+    "categoria": "Lettura iconografica",
+    "record_autorità": "https://thes.bncf.firenze.sbn.it/termine.php?id=15226",
+    "conteggio": 3,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Partito Socialista Italiano",
+    "categoria": "Lettura iconografica",
+    "record_autorità": "http://viaf.org/viaf/132541533",
+    "conteggio": 2,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "stella",
+    "categoria": "Lettura iconografica",
+    "record_autorità": "https://www.wikidata.org/wiki/Q1191504",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Garibaldi",
+    "categoria": "Lettura iconografica",
+    "record_autorità": "http://viaf.org/viaf/100192194",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "fascio di luce",
+    "categoria": "Lettura iconografica",
+    "record_autorità": "https://thes.bncf.firenze.sbn.it/termine.php?id=21249",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "propaganda politica",
+    "categoria": "Categoria merceologica/ tipo evento",
+    "record_autorità": "https://thes.bncf.firenze.sbn.it/termine.php?id=7773",
+    "conteggio": 10,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Partito Socialista Italiano",
+    "categoria": "Nomi",
+    "record_autorità": "http://viaf.org/viaf/132541533",
+    "conteggio": 4,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Giuseppe Garibaldi",
+    "categoria": "Nomi",
+    "record_autorità": "http://viaf.org/viaf/100192194",
+    "conteggio": 2,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Italia",
+    "categoria": "Luoghi",
+    "record_autorità": "http://vocab.getty.edu/page/tgn/1000080",
+    "conteggio": 3,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "scheda elettorale",
+    "categoria": "Lettura iconografica",
+    "record_autorità": "https://thes.bncf.firenze.sbn.it/termine.php?id=67840",
+    "conteggio": 2,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "urna",
+    "categoria": "Lettura iconografica",
+    "record_autorità": "https://thes.bncf.firenze.sbn.it/termine.php?id=67835",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "scultura",
+    "categoria": "Lettura iconografica",
+    "record_autorità": "https://thes.bncf.firenze.sbn.it/termine.php?id=4223",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "erma",
+    "categoria": "Lettura iconografica",
+    "record_autorità": "https://www.wikidata.org/wiki/Q376693",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "ritratti",
+    "categoria": "Lettura iconografica",
+    "record_autorità": "https://thes.bncf.firenze.sbn.it/termine.php?id=10545",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "propaganda anticomunista",
+    "categoria": "Categoria merceologica/ tipo evento",
+    "record_autorità": "https://thes.bncf.firenze.sbn.it/termine.php?id=1693",
+    "conteggio": 3,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "propaganda antisocialista",
+    "categoria": "Categoria merceologica/ tipo evento",
+    "record_autorità": "https://www.wikidata.org/wiki/Q105634875",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Stalin",
+    "categoria": "Nomi",
+    "record_autorità": "http://viaf.org/viaf/101787139",
+    "conteggio": 2,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "folla",
+    "categoria": "Lettura iconografica",
+    "record_autorità": "https://www.wikidata.org/wiki/Q13430821",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "simbolo",
+    "categoria": "Lettura iconografica",
+    "record_autorità": "https://thes.bncf.firenze.sbn.it/termine.php?id=1851",
+    "conteggio": 3,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "stellone",
+    "categoria": "Lettura iconografica",
+    "record_autorità": "https://www.wikidata.org/wiki/Q3592477",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "albero",
+    "categoria": "Lettura iconografica",
+    "record_autorità": "https://thes.bncf.firenze.sbn.it/termine.php?id=11392",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "forche",
+    "categoria": "Lettura iconografica",
+    "record_autorità": "https://thes.bncf.firenze.sbn.it/termine.php?id=76364",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "martelli",
+    "categoria": "Lettura iconografica",
+    "record_autorità": "https://d-nb.info/gnd/4023175-6",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "muro",
+    "categoria": "Lettura iconografica",
+    "record_autorità": "https://thes.bncf.firenze.sbn.it/termine.php?id=23872",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Blocco Nazionale",
+    "categoria": "Nomi",
+    "record_autorità": "https://www.wikidata.org/wiki/Q3640978",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Partito Liberale Italiano",
+    "categoria": "Nomi",
+    "record_autorità": "http://viaf.org/viaf/158291413",
+    "conteggio": 2,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Fronte dell'Uomo Qualunque",
+    "categoria": "Nomi",
+    "record_autorità": "http://viaf.org/viaf/131505700",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Unione per la Ricostruzione Nazionale",
+    "categoria": "Nomi",
+    "record_autorità": "http://viaf.org/viaf/178159474185227661699",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Roma",
+    "categoria": "Luoghi",
+    "record_autorità": "http://vocab.getty.edu/page/tgn/7000874",
+    "conteggio": 3,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "simbolo politico",
+    "categoria": "Lettura iconografica",
+    "record_autorità": "https://thes.bncf.firenze.sbn.it/termine.php?id=1851",
+    "conteggio": 3,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Unità Socialista",
+    "categoria": "Nomi",
+    "record_autorità": "https://www.wikidata.org/wiki/Q4005687",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Partito Socialista dei Lavoratori Italiani",
+    "categoria": "Nomi",
+    "record_autorità": "http://viaf.org/viaf/123338395",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Partito Socialista Democratico Italiano",
+    "categoria": "Nomi",
+    "record_autorità": "http://viaf.org/viaf/129022985",
+    "conteggio": 2,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Unione dei Socialisti",
+    "categoria": "Nomi",
+    "record_autorità": "https://www.wikidata.org/wiki/Q4005555",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Democrazia Cristiana",
+    "categoria": "Nomi",
+    "record_autorità": "https://viaf.org/en/viaf/137215176",
+    "conteggio": 6,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "propaganda politica - 1946-1955",
+    "categoria": "Categoria merceologica/ tipo evento",
+    "record_autorità": "https://thes.bncf.firenze.sbn.it/termine.php?id=7773",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "braccia",
+    "categoria": "Lettura iconografica",
+    "record_autorità": "https://thes.bncf.firenze.sbn.it/termine.php?id=32276",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "scopa di saggina",
+    "categoria": "Lettura iconografica",
+    "record_autorità": "https://id.loc.gov/authorities/subjects/sh85017214.html",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "cartacce",
+    "categoria": "Lettura iconografica",
+    "record_autorità": "https://thes.bncf.firenze.sbn.it/termine.php?id=1192",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "scarafaggi",
+    "categoria": "Lettura iconografica",
+    "record_autorità": "https://id.ndl.go.jp/auth/ndlsh/00562534",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "bandiera italiana",
+    "categoria": "Lettura iconografica",
+    "record_autorità": "https://thes.bncf.firenze.sbn.it/termine.php?id=29302",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Cavour",
+    "categoria": "Lettura iconografica",
+    "record_autorità": "http://viaf.org/viaf/68923739",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "manifestanti",
+    "categoria": "Lettura iconografica",
+    "record_autorità": "https://www.wikidata.org/wiki/Q175331",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "cartello",
+    "categoria": "Lettura iconografica",
+    "record_autorità": "https://thes.bncf.firenze.sbn.it/termine.php?id=3022",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "partito monarchico",
+    "categoria": "Lettura iconografica",
+    "record_autorità": "https://viaf.org/en/viaf/220200280",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Camillo Benso conte di Cavour",
+    "categoria": "Nomi",
+    "record_autorità": "http://viaf.org/viaf/68923739",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Partito Nazionale Monarchico",
+    "categoria": "Nomi",
+    "record_autorità": "https://viaf.org/en/viaf/220200280",
+    "conteggio": 2,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "scheletro",
+    "categoria": "Lettura iconografica",
+    "record_autorità": "https://id.loc.gov/authorities/subjects/sh85062895.html?__cf_chl_f_tk=EGxs3ny.L7bNJ41syxV0VveJyecGrchl6kWI5vba.u8-1783344253-1.0.1.1-pVSbxNlItzwxbgT3AkN.ipXuHWDtIWhRUTpdb7EsnsM",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "mantello",
+    "categoria": "Lettura iconografica",
+    "record_autorità": "https://thes.bncf.firenze.sbn.it/termine.php?id=79303",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "personificazione",
+    "categoria": "Lettura iconografica",
+    "record_autorità": "https://d-nb.info/gnd/4137737-0",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "dittatura",
+    "categoria": "Lettura iconografica",
+    "record_autorità": "https://thes.bncf.firenze.sbn.it/termine.php?id=29205",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "propaganda antifascista",
+    "categoria": "Categoria merceologica/ tipo evento",
+    "record_autorità": "https://thes.bncf.firenze.sbn.it/termine.php?id=1169",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Movimento Sociale Italiano",
+    "categoria": "Nomi",
+    "record_autorità": "http://viaf.org/viaf/157733918",
+    "conteggio": 4,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "elettori",
+    "categoria": "Lettura iconografica",
+    "record_autorità": "https://www.wikidata.org/wiki/Q2386616",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "soldati",
+    "categoria": "Lettura iconografica",
+    "record_autorità": "https://thes.bncf.firenze.sbn.it/termine.php?id=8874",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "seggio elettorale",
+    "categoria": "Lettura iconografica",
+    "record_autorità": "https://d-nb.info/gnd/107260583X",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Servizio Propaganda e Stampa",
+    "categoria": "Nomi",
+    "record_autorità": "https://siusa-archivi.cultura.gov.it/cgi-bin/siusa/pagina.pl?TipoPag=prodente&Chiave=95227",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Elezioni politiche italiane giugno 1953",
+    "categoria": "Categoria merceologica/ tipo evento",
+    "record_autorità": "https://www.wikidata.org/wiki/Q2053440",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "riproduzione fotografica",
+    "categoria": "Lettura iconografica",
+    "record_autorità": "https://thes.bncf.firenze.sbn.it/termine.php?id=10335",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "forchetta",
+    "categoria": "Lettura iconografica",
+    "record_autorità": "https://www.wikidata.org/wiki/Q81881",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "pane",
+    "categoria": "Lettura iconografica",
+    "record_autorità": "https://thes.bncf.firenze.sbn.it/termine.php?id=6169",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "missile",
+    "categoria": "Lettura iconografica",
+    "record_autorità": "https://thes.bncf.firenze.sbn.it/termine.php?id=16405",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "propaganda antiamericana",
+    "categoria": "Categoria merceologica/ tipo evento",
+    "record_autorità": "https://thes.bncf.firenze.sbn.it/termine.php?id=53196",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "aiuti internazionali",
+    "categoria": "Categoria merceologica/ tipo evento",
+    "record_autorità": "https://thes.bncf.firenze.sbn.it/termine.php?id=35571",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Aiuti americani",
+    "categoria": "Nomi",
+    "record_autorità": "https://viaf.org/en/viaf/152514704",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Stati Uniti d’America",
+    "categoria": "Luoghi",
+    "record_autorità": "http://vocab.getty.edu/page/tgn/7012149",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "falce e martello",
+    "categoria": "Lettura iconografica",
+    "record_autorità": "https://www.wikidata.org/wiki/Q170266",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "libro aperto",
+    "categoria": "Lettura iconografica",
+    "record_autorità": "https://thes.bncf.firenze.sbn.it/termine.php?id=303",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Sole nascente",
+    "categoria": "Lettura iconografica",
+    "record_autorità": "https://www.wikidata.org/wiki/Q2041293",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "caricature",
+    "categoria": "Lettura iconografica",
+    "record_autorità": "https://thes.bncf.firenze.sbn.it/termine.php?id=8986",
+    "conteggio": 2,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "politici",
+    "categoria": "Lettura iconografica",
+    "record_autorità": "https://thes.bncf.firenze.sbn.it/termine.php?id=1182",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Nikita Sergeevič Chruščëv",
+    "categoria": "Nomi",
+    "record_autorità": "http://viaf.org/viaf/64007537",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Nikolaj Aleksandrovič Bulganin",
+    "categoria": "Nomi",
+    "record_autorità": "http://viaf.org/viaf/97709372",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Pietro Nenni",
+    "categoria": "Nomi",
+    "record_autorità": "http://viaf.org/viaf/73865321",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Palmiro Togliatti",
+    "categoria": "Nomi",
+    "record_autorità": "http://viaf.org/viaf/27151541",
+    "conteggio": 2,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Premio Stalin per la pace",
+    "categoria": "Nomi",
+    "record_autorità": "https://www.wikidata.org/wiki/Q308907",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Unione delle Repubbliche Socialiste Sovietiche",
+    "categoria": "Luoghi",
+    "record_autorità": "http://vocab.getty.edu/page/tgn/6006211",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Russia",
+    "categoria": "Luoghi",
+    "record_autorità": "http://vocab.getty.edu/page/tgn/7002435",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Mosca",
+    "categoria": "Luoghi",
+    "record_autorità": "http://vocab.getty.edu/page/tgn/7012974",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "fiamma tricolore simbolo M.S.I.",
+    "categoria": "Lettura iconografica",
+    "record_autorità": "http://viaf.org/viaf/93166060348780322018",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "pietre",
+    "categoria": "Lettura iconografica",
+    "record_autorità": "https://id.loc.gov/authorities/subjects/sh85017762.html",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "puntelli",
+    "categoria": "Lettura iconografica",
+    "record_autorità": "https://thes.bncf.firenze.sbn.it/termine.php?id=1449",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "monumento",
+    "categoria": "Lettura iconografica",
+    "record_autorità": "https://thes.bncf.firenze.sbn.it/termine.php?id=6592",
+    "conteggio": 2,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "elezioni del 18 aprile 1948",
+    "categoria": "Lettura iconografica",
+    "record_autorità": "https://www.wikidata.org/wiki/Q632933",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "elezioni del 25 maggio 1958",
+    "categoria": "Lettura iconografica",
+    "record_autorità": "https://www.wikidata.org/wiki/Q2053444",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "figura allegorica",
+    "categoria": "Lettura iconografica",
+    "record_autorità": "https://thes.bncf.firenze.sbn.it/termine.php?id=7030",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Italia turrita",
+    "categoria": "Lettura iconografica",
+    "record_autorità": "http://viaf.org/viaf/102607315",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "politici italiani",
+    "categoria": "Lettura iconografica",
+    "record_autorità": "https://www.wikidata.org/wiki/Q7030460",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Alcide De Gasperi",
+    "categoria": "Lettura iconografica",
+    "record_autorità": "http://viaf.org/viaf/32011324",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "comunicazione istituzionale",
+    "categoria": "Categoria merceologica/ tipo evento",
+    "record_autorità": "https://www.wikidata.org/wiki/Q2989674",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Nino Tripodi",
+    "categoria": "Nomi",
+    "record_autorità": "http://viaf.org/viaf/9974304",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Giulio Caradonna",
+    "categoria": "Nomi",
+    "record_autorità": "https://www.wikidata.org/wiki/Q3769531",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Gennaro Villelli",
+    "categoria": "Nomi",
+    "record_autorità": "https://opac.sbn.it/risultati-autori/-/opac-autori/detail/IEIV041608",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Francesco Galante",
+    "categoria": "Nomi",
+    "record_autorità": "https://www.wikidata.org/wiki/Q38084556",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Giorgio Almirante",
+    "categoria": "Nomi",
+    "record_autorità": "http://viaf.org/viaf/57520898",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Domenico Latanza",
+    "categoria": "Nomi",
+    "record_autorità": "https://www.wikidata.org/wiki/Q27467947",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Massimo Aureli",
+    "categoria": "Nomi",
+    "record_autorità": "https://www.lazio900.it/entita/48719-aureli-massimo/",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Vittoria Nunzi",
+    "categoria": "Nomi",
+    "record_autorità": "https://www.lazio900.it/entita/50055-nunzi-vittoria/",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Trieste",
+    "categoria": "Luoghi",
+    "record_autorità": "http://vocab.getty.edu/page/tgn/7005539",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Messina",
+    "categoria": "Luoghi",
+    "record_autorità": "http://vocab.getty.edu/page/tgn/7003897",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Agrigento",
+    "categoria": "Luoghi",
+    "record_autorità": "http://vocab.getty.edu/page/tgn/7003808",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Ragusa",
+    "categoria": "Luoghi",
+    "record_autorità": "http://vocab.getty.edu/page/tgn/7003788",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Enna",
+    "categoria": "Luoghi",
+    "record_autorità": "http://vocab.getty.edu/page/tgn/7003916",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Caltanisetta",
+    "categoria": "Luoghi",
+    "record_autorità": "http://vocab.getty.edu/page/tgn/7003806",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Trapani",
+    "categoria": "Luoghi",
+    "record_autorità": "http://vocab.getty.edu/page/tgn/7003849",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Siracusa",
+    "categoria": "Luoghi",
+    "record_autorità": "http://vocab.getty.edu/page/tgn/7003794",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Marsala",
+    "categoria": "Luoghi",
+    "record_autorità": "http://vocab.getty.edu/page/tgn/7003850",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Palermo",
+    "categoria": "Luoghi",
+    "record_autorità": "http://vocab.getty.edu/page/tgn/7003928",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Alto Adige",
+    "categoria": "Luoghi",
+    "record_autorità": "http://vocab.getty.edu/page/tgn/7030436",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Merano",
+    "categoria": "Luoghi",
+    "record_autorità": "http://vocab.getty.edu/page/tgn/7005432",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Bressanone",
+    "categoria": "Luoghi",
+    "record_autorità": "http://vocab.getty.edu/page/tgn/7005433",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Laives",
+    "categoria": "Luoghi",
+    "record_autorità": "http://vocab.getty.edu/page/tgn/7010001",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Campania",
+    "categoria": "Luoghi",
+    "record_autorità": "http://vocab.getty.edu/page/tgn/7003005",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Puglia",
+    "categoria": "Luoghi",
+    "record_autorità": "http://vocab.getty.edu/page/tgn/7010380",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Abruzzo",
+    "categoria": "Luoghi",
+    "record_autorità": "http://vocab.getty.edu/page/tgn/7009084",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Basilicata",
+    "categoria": "Luoghi",
+    "record_autorità": "http://vocab.getty.edu/page/tgn/7004610",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Rieti",
+    "categoria": "Luoghi",
+    "record_autorità": "http://vocab.getty.edu/page/tgn/7006739",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Terni",
+    "categoria": "Luoghi",
+    "record_autorità": "http://vocab.getty.edu/page/tgn/7005123",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Ciociaria",
+    "categoria": "Luoghi",
+    "record_autorità": "http://vocab.getty.edu/page/tgn/1111943",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Sardegna",
+    "categoria": "Luoghi",
+    "record_autorità": "http://vocab.getty.edu/page/tgn/7003121",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Calabria",
+    "categoria": "Luoghi",
+    "record_autorità": "http://vocab.getty.edu/page/tgn/7007850",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Ferrara",
+    "categoria": "Luoghi",
+    "record_autorità": "http://vocab.getty.edu/page/tgn/7046682",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Monza",
+    "categoria": "Luoghi",
+    "record_autorità": "http://vocab.getty.edu/page/tgn/7006006",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "economia",
+    "categoria": "Categoria merceologica/ tipo evento",
+    "record_autorità": "https://thes.bncf.firenze.sbn.it/termine.php?id=4841",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "elezioni politiche italiane",
+    "categoria": "Categoria merceologica/ tipo evento",
+    "record_autorità": "https://www.wikidata.org/wiki/Q3722420",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Italia 2. Dal centrismo al centro-sinistra (1954-1962)",
+    "categoria": "Categoria merceologica/ tipo evento",
+    "record_autorità": "https://patrimonio.archivioluce.com/luce-web/search/result.html?temi=%22Italia%202.%20Dal%20centrismo%20al%20centro-sinistra%20(1954-1962)%22&activeFilter=temi",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Partito Monarchico Popolare",
+    "categoria": "Nomi",
+    "record_autorità": "http://viaf.org/viaf/5147159248551004870000",
+    "conteggio": 1,
+    "nav_link": "#"
+  },
+  {
+    "argomento": "Francia",
+    "categoria": "Luoghi",
+    "record_autorità": "http://vocab.getty.edu/page/tgn/1000070",
+    "conteggio": 1,
+    "nav_link": "#"
+  }
+]
