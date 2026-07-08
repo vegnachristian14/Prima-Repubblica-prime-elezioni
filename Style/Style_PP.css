@@ -479,6 +479,10 @@ main {
   font-size: 0.85rem;
 }
 
+.xml-dc a {
+  text-decoration: none;
+}
+
 /* COLONNA CENTRALE: immagine + metadati (.griglia-responsive) */
 
 .griglia-responsive {
