@@ -323,6 +323,12 @@ main {
 }
 
 /* SEZIONE TABELLA DEI METADATI (.data-table) */
+.export-btn {
+  display: flex;
+  gap: 0.6rem;
+  margin-bottom: 1rem;
+}
+
 .data-table {
   width: 100%;
   overflow-x: auto;
