@@ -14,8 +14,14 @@
 	<!-- DATA -->
 	<dcterms:created>1958</dcterms:created>
 	<!-- ABSTRACT -->
-	<dcterms:subject type="lettura_iconografica">figure maschili; caricature; politici</dcterms:subject>
-	<dcterms:subject type="categoria_merceologica_tipo_evento">politica; partiti politici; informazione e comunicazione; propaganda elettorale</dcterms:subject>
+	<dcterms:subject type="lettura_iconografica" ref="https://www.wikidata.org/wiki/Q44148">figure maschili</dcterms:subject>
+	<dcterms:subject type="lettura_iconografica" ref="https://thes.bncf.firenze.sbn.it/termine.php?id=8986">caricature</dcterms:subject>
+	<dcterms:subject type="lettura_iconografica" ref="https://thes.bncf.firenze.sbn.it/termine.php?id=1182">politici</dcterms:subject>
+	<dcterms:subject type="categoria_merceologica_tipo_evento" ref="https://thes.bncf.firenze.sbn.it/termine.php?id=4934">politica</dcterms:subject>
+	<dcterms:subject type="categoria_merceologica_tipo_evento" ref="https://thes.bncf.firenze.sbn.it/termine.php?id=5254">partiti politici</dcterms:subject>
+	<dcterms:subject type="categoria_merceologica_tipo_evento" ref="https://thes.bncf.firenze.sbn.it/termine.php?id=5648">informazione</dcterms:subject>
+	<dcterms:subject type="categoria_merceologica_tipo_evento" ref="https://thes.bncf.firenze.sbn.it/termine.php?id=2303">comunicazione</dcterms:subject>
+	<dcterms:subject type="categoria_merceologica_tipo_evento" ref="https://thes.bncf.firenze.sbn.it/termine.php?id=15961">propaganda elettorale</dcterms:subject>
 	<dcterms:subject type="nomi" ref="http://viaf.org/viaf/64007537">Kruscev</dcterms:subject>
 	<dcterms:subject type="nomi" ref="http://viaf.org/viaf/64007537">Nikita Sergeevič Chruščëv</dcterms:subject>	
 	<dcterms:subject type="nomi" ref="http://viaf.org/viaf/97709372">Nikolaj Aleksandrovič Bulganin</dcterms:subject>

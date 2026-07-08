@@ -70,7 +70,7 @@ schematypens → indica il linguaggio con cui è scritto lo schema, in questo ca
 		              		</supportDesc>
 		            	</objectDesc>
 		            	<typeDesc>
-		            		<typeNote>stampa tipografica su entrambi i lati del foglio</typeNote>
+		            		<typeNote>Programma elettorale Democrazia Cristiana. Incipit del testo: nell'ora in cui l'Italia rinasce dal sangue... Il foglio è stampato su entrambi i lati</typeNote>
 		            	</typeDesc>
 		          	</physDesc>
 		            <history>
@@ -91,9 +91,9 @@ schematypens → indica il linguaggio con cui è scritto lo schema, in questo ca
 	      	</langUsage>
 	      	<textClass>
 	        	<keywords scheme="https://europeana.eu">
-	          		<term ref="http://viaf.org/viaf/137215176">Democrazia Cristiana</term>
+	          		<term>Democrazia Cristiana</term>
 	          		<term>propaganda elettorale – 1948-1955</term>
-	          		<term ref="http://viaf.org/viaf/59890789">Gabriotti Venanzio</term>
+	          		<term>Gabriotti Venanzio</term>
 	        	</keywords>
 	        	<classCode scheme="https://d-nb.info/gnd/4071280-1">volantino</classCode>
 	      	</textClass>

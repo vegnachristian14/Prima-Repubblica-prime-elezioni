@@ -13,7 +13,7 @@
 	<dcterms:creator xsi:type="dcterms:URI">http://viaf.org/viaf/137215176</dcterms:creator>
 	<!-- ARGOMENTO -->
 	<dcterms:subject type="nomi" ref="http://viaf.org/viaf/137215176">Democrazia Cristiana</dcterms:subject>
-	<dcterms:subject type="categoria_merceologica_tipo_evento">propaganda politica - 1946-1955</dcterms:subject>
+	<dcterms:subject type="categoria_merceologica_tipo_evento" ref="https://thes.bncf.firenze.sbn.it/termine.php?id=7773">propaganda politica - 1946-1955</dcterms:subject>
 	<!-- TIPO DI OGGETTO -->
 	<dcterms:type type="oggetto" ref="https://d-nb.info/gnd/4071280-1">volantino</dcterms:type>
 	<!-- DATA -->
