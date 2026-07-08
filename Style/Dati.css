@@ -323,10 +323,16 @@ main {
 }
 
 /* SEZIONE TABELLA DEI METADATI (.data-table) */
-.export-btn {
-  display: flex;
-  gap: 0.6rem;
-  margin-bottom: 1rem;
+.desc-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.desc-btn .places-btn {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
 }
 
 .data-table {
@@ -337,7 +343,7 @@ main {
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   padding: 1rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 
 table#item-table {
@@ -373,103 +379,35 @@ table.table-striped tbody tr:hover {
 }
 
 table#item-table a {
-  color: var(--color-accent);
-  text-decoration: underline;
-  text-decoration-color: rgba(26,79,114,0.35);
+  color: #2a6f9e;
+  text-decoration: none;
   text-underline-offset: 2px;
 }
 
-table#item-table a:hover { color: var(--color-accent-lt); }
-
-/* CONTROLLI DATATABLES (ricerca, lunghezza pagina, info, paginazione)
-   Ristilizzati per usare la stessa palette del resto del sito. */
-.dataTables_wrapper .dataTables_length,
-.dataTables_wrapper .dataTables_filter,
-.dataTables_wrapper .dataTables_info {
-  font-size: 0.85rem;
-  color: var(--color-text);
-  margin-bottom: 0.6rem;
-}
-
-.dataTables_wrapper .dataTables_filter input,
-.dataTables_wrapper .dataTables_length select {
-  font-family: var(--font-sans);
-  font-size: 0.85rem;
-  padding: 0.3rem 0.5rem;
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius);
-  color: var(--color-text);
-  background-color: var(--color-surface);
-  outline: none;
-  transition: border-color 0.2s ease;
-}
-
-.dataTables_wrapper .dataTables_filter input:focus,
-.dataTables_wrapper .dataTables_length select:focus {
-  border-color: var(--color-accent-lt);
-}
-
-.dataTables_wrapper .dataTables_paginate {
-  margin-top: 0.8rem;
-  padding-top: 0.8rem;
-  border-top: 1px solid var(--color-border);
-}
-
-.dataTables_wrapper .dataTables_paginate .paginate_button {
-  display: inline-block;
-  padding: 0.35rem 0.7rem;
-  margin: 0 0.15rem;
-  font-family: var(--font-sans);
-  font-size: 0.85rem;
-  color: var(--color-accent) !important;
-  background-color: var(--color-surface);
-  border: 1px solid var(--color-border) !important;
-  border-radius: var(--radius);
-  cursor: pointer;
-  transition: background-color 0.2s ease, color 0.2s ease;
-}
-
-.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
-  background: var(--color-accent) !important;
-  color: #ffffff !important;
-  border-color: var(--color-accent) !important;
-}
-
-.dataTables_wrapper .dataTables_paginate .paginate_button.current {
-  background: var(--color-accent) !important;
-  color: #ffffff !important;
-  border-color: var(--color-accent) !important;
-  font-weight: 700;
-}
-
-.dataTables_wrapper .dataTables_paginate .paginate_button.disabled {
-  color: #999 !important;
-  cursor: not-allowed;
-  background: var(--color-bg) !important;
-}
+table#item-table a:hover { color: var(--color-accent); }
 
 /* Pulsanti di export CSV/Excel: stesso stile del bottone "Filtra" (.to-filter-btn) */
-.dt-buttons {
+.to-filter-btn {
   margin-top: 0.8rem;
   display: flex;
   gap: 0.6rem;
 }
 
-.dt-buttons .to-filter-btn,
-.dt-buttons button {
+.to-filter-btn {
   padding: 0.4rem 1rem;
   background-color: var(--color-accent);
   color: #ffffff;
   border: none;
   border-radius: var(--radius);
+  text-decoration: none;
+  text-align: center;
   font-family: var(--font-sans);
   font-size: 0.85rem;
   cursor: pointer;
   transition: background-color 0.2s ease;
 }
 
-.dt-buttons .to-filter-btn:hover,
-.dt-buttons button:hover {
+.to-filter-btn:hover {
   background-color: var(--color-accent-lt);
 }
 
@@ -480,8 +418,8 @@ table#item-table a:hover { color: var(--color-accent-lt); }
 
 .sidebar .places-btn {
   display: block;
-  width: 100%;
-  padding: 0.4rem 0.8rem;
+  width: 70%;
+  padding: 0.7rem 0.8rem;
   background-color: var(--color-accent);
   color: #ffffff;
   border: none;
