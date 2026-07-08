@@ -27,7 +27,7 @@
 	<dcterms:subject type="nomi" ref="http://viaf.org/viaf/97709372">Nikolaj Aleksandrovič Bulganin</dcterms:subject>
 	<dcterms:subject type="nomi" ref="http://viaf.org/viaf/73865321">Pietro Nenni</dcterms:subject>
 	<dcterms:subject type="nomi" ref="http://viaf.org/viaf/27151541">Palmiro Togliatti</dcterms:subject>
-	<dcterms:subject type="nomi">Premio Stalin per la pace</dcterms:subject>
+	<dcterms:subject type="nomi" ref="https://www.wikidata.org/wiki/Q308907">Premio Stalin per la pace</dcterms:subject>
 	<dcterms:subject type="nomi" ref="http://viaf.org/viaf/137215176">DC</dcterms:subject>
 	<dcterms:subject type="nomi" ref="http://viaf.org/viaf/137215176">Democrazia Cristiana</dcterms:subject>
 	<dcterms:subject type="luoghi" ref="http://vocab.getty.edu/page/tgn/6006211">URSS</dcterms:subject>
