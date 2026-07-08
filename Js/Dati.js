@@ -45,7 +45,7 @@ $(document).ready(function () {
 	Il file è un CSV: necessaria libreria PapaParse per leggerlo e 
 	trasformarlo in un array di oggetti prima di passarlo a DataTables */
 
-	Papa.parse("Csv/Tabella_pag_dati.csv", {
+	Papa.parse("../Csv/Tabella_pag_dati.csv", {
 		download: true, /* dice a PapaParse di scaricare il file dall'URL indicato (non di leggere una stringa già in memoria) */
 		header: true, /* usa la prima riga del CSV come nomi delle proprietà di ciascun oggetto */
 		skipEmptyLines: true,
